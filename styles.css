@@ -965,7 +965,7 @@ footer p {
 @media only screen and (max-device-width: 1000px) {
 html,
 body {
-  overflow-x: hidden;
+  overflow-x: hidden !important;
 }
   
   .group {
