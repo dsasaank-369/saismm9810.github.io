@@ -5,7 +5,7 @@
 
 html,
 body {
-  overflow-y: visible;
+  overflow-y: hidden !hidden;
 }
 
 body {
