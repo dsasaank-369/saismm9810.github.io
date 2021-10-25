@@ -1335,7 +1335,7 @@ footer {
   #last {
     display: none;
   }
-   #pie img {
-    margin-left: 0px;
+   #pie {
+    display: none;
   }
 }
