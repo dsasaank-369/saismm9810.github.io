@@ -142,19 +142,32 @@ header {
   margin-left: -78px;
   border-radius: 208px;
   transform: rotate(7.12deg);
+  z-index: 2;
 }
 
 /* Section 2*/
 
+#second {
+  margin: 0;
+}
+
+#second .container {
+  margin: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .testimage {
-  background-image: url(LAYOUT\ 1.jpg);
+  background-image: url(2253.png);
   background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
 }
 
 .Testimonial {
   position: relative;
-  height: 900px;
-
+  height: 800px;
+  background: #000000;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -162,11 +175,22 @@ header {
 }
 .test {
   padding: 60px 12px;
-  width: 430px;
+  width: 422px;
+  height: 442px;
   border-radius: 80px;
-  height: 414px;
-  border: 0.05px solid #d8e1ee;
-  backdrop-filter: blur(45px);
+
+  background: rgba(196, 196, 196, 0.01);
+  box-shadow: inset 0px 33.15px 47.6px -30.6px rgba(255, 255, 255, 0.5),
+    inset 0px 5.95px 9.35px -3.4px #ffffff,
+    inset 0px -69.7px 57.8px -54.4px rgba(96, 68, 145, 0.3),
+    inset 0px 83.3px 85px -40.8px rgba(202, 172, 255, 0.3),
+    inset 0px 3.4px 15.3px rgba(154, 146, 210, 0.3),
+    inset 0px 0.85px 34px rgba(227, 222, 255, 0.2);
+  backdrop-filter: blur(85px);
+  /* Note: backdrop-filter has minimal browser support */
+
+  border-radius: 102px 102px 102px 102.002px;
+  /* transform: matrix(0, -1, 1, -0.02, 0, 0); */
 }
 
 .icon--box {
@@ -190,7 +214,7 @@ header {
   font-weight: bold;
   font-size: 16px;
   line-height: 24px;
-  color: #000000;
+  color: white;
   opacity: 0.5;
 }
 
@@ -1035,6 +1059,7 @@ footer {
   .Testimonial {
     display: grid;
     height: auto;
+    padding: 20px;
   }
   .test {
     width: 100%;
