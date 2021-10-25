@@ -5,7 +5,7 @@
 
 html,
 body {
-  overflow-y: hidden !hidden;
+  overflow-y: hidden;
 }
 
 body {
@@ -233,7 +233,7 @@ header {
 .box1 {
 }
 
-.box2 {
+/* .box2 {
   position: relative;
   margin-top: 150px;
   height: 380px;
@@ -242,7 +242,7 @@ header {
   box-shadow: 0px 31.6855px 63.3711px rgba(123, 73, 201, 0.3);
   border-radius: 31.6855px;
   transform: rotate(0.02deg);
-}
+} */
 
 .what {
   padding-top: 200px;
@@ -521,11 +521,11 @@ header {
   transform: rotate(0.02deg);
 }
 
-.squares {
+/* .squares {
   position: relative;
 
   top: -550px;
-}
+} */
 
 .Ellipse {
   position: relative;
@@ -566,8 +566,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-
-  height: 140vh;
+  padding-bottom: 20px;
+  height: 100vh;
   background-color: #171b29;
 }
 
@@ -743,7 +743,7 @@ header {
 #last {
   background-color: black;
   margin: 0;
-  height: 100vh;
+  height: 90vh;
 }
 
 #last p {
@@ -884,7 +884,7 @@ footer {
   background-repeat: no-repeat;
 }
 
-footer p {
+.future {
   color: #f0dcff;
   font-family: sans-serif;
   font-style: normal;
@@ -927,11 +927,11 @@ footer p {
   display: none;
 }
 
-.copy {
+.design {
   font-family: Century Gothic;
   font-style: normal;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 22px;
   /* or 157% */
 
@@ -963,11 +963,11 @@ footer p {
 }
 
 @media only screen and (max-device-width: 1000px) {
-html,
-body {
-  overflow-x: hidden !important;
-}
-  
+  html,
+  body {
+    overflow-x: hidden !important;
+  }
+
   .group {
     display: none;
   }
@@ -1023,14 +1023,14 @@ body {
     z-index: -3;
     height: auto;
   }
-  .btn {
+  /* .btn {
     position: relative;
     top: -414px;
-  }
-  .box2 {
+  } */
+  /* .box2 {
     margin-top: 20px;
     width: 329.32px;
-  }
+  } */
   .Testimonial {
     display: grid;
     height: auto;
@@ -1233,7 +1233,7 @@ body {
     margin-left: 85px;
     margin-top: -130px;
   }
-  footer p {
+  .future {
     font-size: 29px;
     line-height: 35px;
   }
@@ -1262,7 +1262,7 @@ body {
   .round {
     display: none;
   }
-  .copy {
+  .design {
     margin-top: -50px;
   }
 }
