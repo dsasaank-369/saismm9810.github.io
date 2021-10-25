@@ -763,7 +763,7 @@ header {
 }
 
 #last {
-  background-color: black;
+  background-color: #0f1320;
   margin: 0;
 }
 
@@ -1335,7 +1335,10 @@ footer {
   #last {
     display: none;
   }
-   #pie {
+  /* #pie img {
+    margin-left: 0px;
+  } */
+  #pie {
     display: none;
   }
 }
