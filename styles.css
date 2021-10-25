@@ -763,7 +763,7 @@ header {
 }
 
 #last {
-  background-color: #0f1320;
+  background-color: #0f1320 !important;
   margin: 0;
 }
 
